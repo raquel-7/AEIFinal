@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/loading-bar.css">
+    <title></title>
+  </head>
+  <body>
+  <table class="container-center">
+  <tr>
+  <th>Usuario</th>
+
+  </tr>
+  
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> AEI - Alfabetización y Evangelismo Internacional</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Unica University Template">
+	<meta name="keywords" content="event, unica, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="../img/logo-AEI" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/themify-icons.css"/>
+	<link rel="stylesheet" href="../css/magnific-popup.css"/>
+	<link rel="stylesheet" href="../css/animate.css"/>
+	<link rel="stylesheet" href="../css/owl.carousel.css"/>
+	<link rel="stylesheet" href="../css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+
+	<!-- header section -->
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a href="index.php" class="site-logo"><img src="img/logo1.png" alt=""></a>
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<div class="header-info">
+				<form class="newsletter" action= "logout.php">
+					<button class="site-btn">Cerrar Sesión</button>
+				</form>
+			</div>
+
+		</div>
+
+
+			<!-- Header section  -->
+			<nav class="nav-section">
+				<div class="container">
+					<div class="nav-right">
+
+						<a href="#">Administrador</a>
+				
+
+					</div>
+
+				<ul class='main-menu'><li> <a class=menu href=opcionesTabla.php?tabla=Usuario>Usuario</a></li><li> <a class=menu href=opcionesTabla.php?tabla=Modulo>Modulo</a></li><li> <a class=menu href=opcionesTabla.php?tabla=Lecciones>Lecciones</a></li><li> <a class=menu href=opcionesTabla.php?tabla=Material>Material</a></li><li> <a class=menu href=opcionesTabla.php?tabla=Escritura>Escritura</a></li><li> <a class=menu href=opcionesTabla.php?tabla=Completado>Completado</a></li></ul>				</div>
+			</nav>
+
+	</header>
+
+
+</html>
+<p id ='gato0'
+  33</p>
+
+     <tr>
+     
+       <div>
+       <td>
+       espacial     
+       </div>
+     
+     
+    
+      
+      <div class="container-test">
+      <div class="loading-bar-container">
+        <div class="loading-bar-indicator">
+          <div style="width:33%;" class="indicator-spacer">
+            <div class="indicator">
+              33%
+            </div>
+          </div>
+        </div>
+        <div class="loading-bar">
+        <div style='width:33%;' id=myBar0 class='dynamic-loading-box'>
+
+          <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+ 
+ </td>  
+    </tr> 
+      
+     </table>
+
+   <p id ='gato1'
+  66</p>
+
+     <tr>
+     
+       <div>
+       <td>
+       maria     
+       </div>
+     
+     
+    
+      
+      <div class="container-test">
+      <div class="loading-bar-container">
+        <div class="loading-bar-indicator">
+          <div style="width:66%;" class="indicator-spacer">
+            <div class="indicator">
+              66%
+            </div>
+          </div>
+        </div>
+        <div class="loading-bar">
+        <div style='width:66%;' id=myBar1 class='dynamic-loading-box'>
+
+          <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+ 
+ </td>  
+    </tr> 
+      
+     </table>
+
+   <p id='cont'> 2 <p><script>
+console.log( "EMpezamos");
+var cont = document.getElementById("cont").innerHTML;
+console.log(cont, "Contador");
+
+    var id = setInterval(frame, 10);
+    function frame() {
+      for (var i = 0; i < cont; i++){
+    var elem = document.getElementById("myBar"+ i);
+    console.log(elem, "mybar");
+    var width = 1;
+    var widthphp = document.getElementById("gato"+i).innerHTML;
+    console.log(widthphp, "gato");
+        if (width >= widthphp) {
+            clearInterval(id);
+        } else {
+            width++;
+            elem.style.width = width + '%';
+        }
+
+      }
+    }
+    
+
+
+
+
+
+</script>
+  </body>
+</html>
